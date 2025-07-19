@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Shoes Detail | Absolute Comfort</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+    .product-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.05);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .product-image img {
+      width: 100%;
+      border-radius: 15px;
+      transition: transform 0.5s;
+    }
+    .product-image img:hover {
+      transform: scale(1.05);
+    }
+    .btn-custom {
+      background: #f39c12;
+      border: none;
+      padding: 10px 25px;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: all 0.3s;
+    }
+    .btn-custom:hover {
+      background: #d35400;
+      transform: scale(1.05);
+    }
+    .product-details ul {
+      list-style: none;
+      padding: 0;
+    }
+    .product-details ul li {
+      padding: 5px 0;
+      font-size: 16px;
+      border-bottom: 1px dashed rgba(255,255,255,0.2);
+    }
+    .highlight {
+      color: #f1c40f;
+      font-weight: bold;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      font-weight: bold;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container product-container">
+    <div class="row">
+      <!-- Product Image -->
+      <div class="col-md-6 product-image">
+        <img src="Shoes.jpg" alt="Sports Shoes">
+      </div>
+
+      <!-- Product Details -->
+      <div class="col-md-6 product-details">
+        <h2 class="highlight">ABSOLUTE COMFORT Sports Shoes</h2>
+        <p><strong>Model Name:</strong> sports shoes for men | Latest Stylish Casual sneakers for men | Lace up lightweight shoes for running, walking, gym, trekking, hiking & party Running Shoes For Men</p>
+        <button class="btn btn-custom me-2">Add to Cart</button>
+        <button class="btn btn-custom">Buy Now</button>
+
+        <h3 class="section-title">Specifications:</h3>
+        <ul>
+          <li><strong>Brand:</strong> Absolute Comfort</li>
+          <li><strong>Brand Color:</strong> Black, White</li>
+          <li><strong>Suitable For:</strong> Sports</li>
+          <li><strong>Color:</strong> Black, White</li>
+          <li><strong>Inner Material:</strong> Canvas, PVC</li>
+          <li><strong>Outer Material:</strong> Canvas, Mesh</li>
+          <li><strong>Ideal For:</strong> Men</li>
+          <li><strong>Occasion:</strong> Sports</li>
+          <li><strong>Size:</strong> 8 UK/India (Euro 42)</li>
+          <li><strong>Closure:</strong> Lace-Ups</li>
+          <li><strong>Upper Pattern:</strong> Mesh</li>
+          <li><strong>Tip Shape:</strong> Round</li>
+          <li><strong>Article Number:</strong> CR1-BLACK</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Care Instructions & Description -->
+    <div class="row mt-4">
+      <div class="col-12">
+        <h3 class="section-title">Care Instructions:</h3>
+        <p>Allow your pair of shoes to air and de-odorize at a regular basis, this also helps them retain their natural shape; use shoe bags to prevent any stains or mildew; dust any dry dirt from the surface using a clean cloth, do not use polish or shiner.</p>
+
+        <h3 class="section-title">Product Description:</h3>
+        <p>Enhance your footwear collection by adding this stylish casual shoe for men from the house of ABSOLUTE COMFORT. This pair of shoes is made from lightweight construction with breathable fabric for maximum comfort and performance. ABSOLUTE COMFORT shoes help in sweat dispersion and have a high-quality sole for traction on slippery conditions.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
